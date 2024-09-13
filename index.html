@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="left-container">
+            <div class="item">
+                <img width="80px" height="auto" src="odin-lined.png" alt="">
+                <h2>ODIN</h2>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="item1">
+                <p><strong>This is not a real online service! You know you need something like this in your life to help you realize your deepext dreams. Sign up now to get started.</strong></p>
+                <p><strong>You know you want to.</strong></p>
+            </div>
+            <div class="item2">
+                <form action="">
+                    <h4><strong>Let's Do This</strong></h4>
+                    <div class="form">
+                        <div>
+                            <div>
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <input type="text" id="first_name" minlength="3" maxlength="15" pattern="[A-Za-z\s]+" title="Name can only contain letters and spaces" required>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="last_name">Last Name</label>
+                            </div>
+                            <input type="text" id="last_name" minlength="3" maxlength="15" pattern="[A-Za-z\s]+" title="Name can only contain letters and spaces" required>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="email">Email</label>
+                            </div>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="number">Phone Number</label>
+                            </div>
+                            <input type="tel" id="number" minlength="11" maxlength="11" required>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="password">Password</label>
+                            </div>
+                            <input type="password" id="password" minlength="4" maxlength="8" required>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="comfirm_password">Comfirm Password</label>
+                            </div>
+                            <input type="password" id="comfirm_password" minlength="4" maxlength="8" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="item3">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="#">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
